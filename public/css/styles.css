@@ -1,0 +1,86 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.login{
+    height: 100vh;
+}
+
+.header h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.login-form label{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+}
+
+.login-form input{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    color: #858585;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.login-form .daftar{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin: 67px 0 30px 0;
+}
+
+.login-form a{
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.login-form span{
+    font-weight: 500;
+    font-size: 20px;
+    color: #858585;
+}
+
+.s-img{
+    object-fit: cover;
+    height: 100vh;
+}
+
+.login-form select{
+    border-color: black;
+}
+
+.button{
+    padding: 10px 20px 10px 20px;
+    background: #B70404;
+    color:  white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+
+.login-form.error{
+    color: #B70404;
+    font-size: 9px;
+    height: 13px;
+}
+
+.login-form.success input{
+    border-color: green;
+}
+.login-form.success input{
+    border-color: #B70404;
+}
